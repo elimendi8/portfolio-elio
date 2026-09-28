@@ -2082,3 +2082,25 @@ body::before {
     }
 
 }
+
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 700px) {
+
+    img {
+        max-width: 100%;
+    }
+
+    .hero,
+    .projects,
+    .services,
+    .about,
+    .contact {
+        max-width: 100%;
+    }
+}
