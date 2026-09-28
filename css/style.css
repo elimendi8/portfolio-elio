@@ -2144,11 +2144,3 @@ body {
 .header-instagram:hover span {
     transform: translate(3px, -3px);
 }
-
-@media (max-width: 700px) {
-
-    .header-instagram {
-        display: none;
-    }
-
-}
